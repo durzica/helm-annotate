@@ -7,4 +7,4 @@ ignoreFlags: false
 useTunnel: true
 command: "$HELM_PLUGIN_DIR/helm-annotate"
 hooks:
-  install: "$HELM_PLUGIN_DIR/install.sh"
+  install: "/bin/bash $HELM_PLUGIN_DIR/install.sh"
